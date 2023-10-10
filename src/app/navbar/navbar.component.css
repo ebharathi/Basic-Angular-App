@@ -1,0 +1,35 @@
+nav{
+    background-color: grey;
+    color: white;
+}
+.parent{
+    display: flex;
+}
+.a{
+    flex:8;
+    display: flex;
+    padding-left: 2px;
+    justify-content: left;
+    align-items: center;
+}
+.a span:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.b{
+    flex:2
+}
+.b ul{
+    display: flex;
+}
+.b li{
+    text-decoration: none;
+    list-style: none;
+    padding:0 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.b li:hover{
+    color: black;
+
+}
